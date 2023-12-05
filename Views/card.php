@@ -1,3 +1,4 @@
+
 <div class="col-12 col-md-4 col-lg-3">
     <div class="card">
         <img src="<?= $image ?>" class="card-img-top my-ratio" style="height:60vh" alt="<?= $title ?>">
@@ -10,10 +11,8 @@
             </p>
             <div class="d-flex justify-content-between align-items-flex-start">
                 <?= $custom ?>
-                <div>
-                    <!-- <small><img src="
-                    <?= $flag ?>
-                    " alt="img"></small> -->
+                <div class="<?= $flag == 1 ? 'd-none' : '' ?>">
+                    <small><img src="<?= $flag ?>" alt="flagimg"></small>
                     <small>
                     <?= $genre ?>
                     </small>
