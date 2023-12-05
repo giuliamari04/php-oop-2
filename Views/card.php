@@ -1,4 +1,6 @@
-
+<?php
+$prezzo= rand(5,40);
+?>
 <div class="col-12 col-md-4 col-lg-3">
     <div class="card">
         <img src="<?= $image ?>" class="card-img-top my-ratio" style="height:60vh" alt="<?= $title ?>">
@@ -9,8 +11,10 @@
             <p class="card-text">
                 <?= $content ?>
             </p>
+            <span>prezzo: €<?=$prezzo?>.00</span>
             <div class="d-flex justify-content-between align-items-flex-start">
                 <?= $custom ?>
+               
                 <div >
                     <small class="<?= $flag == 1 ? 'd-none' : '' ?>"><img src="<?= $flag ?>" alt="flagimg"></small>
                     <small class="<?= $genre == 1 ? 'd-none' : '' ?>">

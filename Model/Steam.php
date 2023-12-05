@@ -43,7 +43,7 @@ class Game
     {
         $image = $this->geticon();
         $title = $this -> name;
-        $content = "playtime:". $this->playtime_forever;
+        $content = "playtime: ". $this->playtime_forever;
         $custom = $this ->getlogo();
         $genre ='1';
         $flag = '1';
