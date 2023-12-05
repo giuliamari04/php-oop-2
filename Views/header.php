@@ -43,6 +43,15 @@
         <li class="nav-item">
           <a class="nav-link" href="steam.php">giochi</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="movieProduct.php">product Movie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bookProduct.php">product Book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gamesProduct.php">product Games</a>
+        </li>
        
       </ul>
     </div>

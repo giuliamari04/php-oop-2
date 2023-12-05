@@ -60,12 +60,9 @@ class Game
 $gamesString = file_get_contents(__DIR__.'/steam_db.json');
 $gameList = json_decode($gamesString, true);
 $gamess=[];
-//$genres = ["Fantasy", "Horror", "Mystery", "Thriller", "Drama", "Action", "Comedy"];
-// $action = new Genre('Action');
-// $comedy = new Genre('Comedy');
+
 foreach ($gameList as $item){
-   // $randgenre = $genres[rand(0,count($genres)-1)];
-    //var_dump($randgenre);
+   
    $games[] = new Game($item['appid'], $item['name'], $item['playtime_forever'],$item['img_icon_url'],$item['img_logo_url']);
 }
 
