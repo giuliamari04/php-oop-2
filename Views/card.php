@@ -11,9 +11,9 @@
             </p>
             <div class="d-flex justify-content-between align-items-flex-start">
                 <?= $custom ?>
-                <div class="<?= $flag == 1 ? 'd-none' : '' ?>">
-                    <small><img src="<?= $flag ?>" alt="flagimg"></small>
-                    <small>
+                <div >
+                    <small class="<?= $flag == 1 ? 'd-none' : '' ?>"><img src="<?= $flag ?>" alt="flagimg"></small>
+                    <small class="<?= $genre == 1 ? 'd-none' : '' ?>">
                     <?= $genre ?>
                     </small>
                 </div>

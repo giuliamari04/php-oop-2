@@ -45,7 +45,7 @@ class Game
         $title = $this -> name;
         $content = "playtime:". $this->playtime_forever;
         $custom = $this ->getlogo();
-        $genre ='';
+        $genre ='1';
         $flag = '1';
 
         include __DIR__ ."/../Views/card.php";

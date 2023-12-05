@@ -35,7 +35,7 @@ class Book
         $content = substr($this->longDescription,0,100).'...';
         $custom = $this ->getauthors();
         $genre = $this ->status;
-        $flag = '';
+        $flag = '1';
 
         include __DIR__ ."/../Views/card.php";
     }
