@@ -12,3 +12,5 @@ dati per libri e giochi (sentitevi liberi di modificarli come volete):
 path per le immagini di steam :
 https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg
 dove 240 è l'appid (da rendere dinamico)
+
+ggiungendo almeno un trait ed un exception al vostro shop
